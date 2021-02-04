@@ -1,5 +1,5 @@
 // C++ implementation of above approach 
-#include <bits/stdc++.h> 
+#include <bits/stdc++.h>
 using namespace std; 
 
 // Function to delete nth digit 
