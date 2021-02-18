@@ -59,7 +59,7 @@ return str.length()-lps.back();
 // Driver program to test above functions 
 int main() 
 { 
-	string str = "AACECAAAA"; 
+	string str = "ABAA"; 
 	cout << getMinCharToAddedToMakeStringPalin(str); 
 	return 0; 
 } 

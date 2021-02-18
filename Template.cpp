@@ -42,29 +42,6 @@ typedef long double ld;
 
 int main()
 {
-    w(x){
-        take(n);
-        takearray(a,n);
-        int c0,c1,c2;
-        c0=c1=c2=0;
-        for(int i=0;i<n;i++){
-            if(a[i]%3==0){
-                c0++;
-            }
-            else if(a[i]%3==1){
-                c1++;
-            }
-            else if(a[i]%3==2){
-                c2++;
-            }
-        }
-        if(c0==c1 && c1==c2){
-            cout<<0<<endl;
-        }
-        else{
-            int x=min(abs(c0-c1),min(abs(c1-c2),abs(c2-c0)));
-            cout<<x<<endl;
-        }
-    }
+    
     return 0;
 }
